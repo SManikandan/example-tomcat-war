@@ -5,9 +5,9 @@ echo "dirname $0: "$(dirname $0)
 echo "$0 "$0
 # echo "sleeping-----------------"
 # sleep 200s
-
-. /tmp/common.sh
-#. $(dirname $0)/common.sh
+./common.sh
+#. /tmp/common.sh
+. $(dirname $0)/common.sh
 . /opt/rh/rh-maven33/enable
 echo "---------------------------------------------++Starting build 1--------------"
 LOCAL_SOURCE_DIR=/tmp/src
