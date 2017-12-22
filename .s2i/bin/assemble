@@ -5,6 +5,7 @@ echo "dirname $0: "$(dirname $0)
 echo "$0 "$0
 # echo "sleeping-----------------"
 # sleep 200s
+echo $(find / -name common.sh)
 ./common.sh
 #. /tmp/common.sh
 . $(dirname $0)/common.sh
