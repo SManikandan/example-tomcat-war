@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "#################### Mani's commit starts here ##############"
 echo "---------------------------------------------++Starting build 0 --------------"
 echo "dirname: "$dirname
 echo "dirname $0: "$(dirname $0)
