@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "###Test###"
 echo "---------------------------------------------++Starting build 0 --------------"
 echo "dirname: "$dirname
 echo "dirname $0: "$(dirname $0)
