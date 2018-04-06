@@ -11,4 +11,4 @@ ENV RUBY_VERSION="2.1.9" \
 
 # install prereqs and compilers
 RUN yum clean all && \
-    yum -y install centos-release-scl && \
+    yum -y install centos-release-scl 
